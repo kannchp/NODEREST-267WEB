@@ -7,7 +7,7 @@
 require("dotenv").config();
 
 const express = require('express');
-const sqlite3 = require('sqlite3')
+const sqlite3 = require('sqlite3');
 const app = express();
 
 //connect to database
